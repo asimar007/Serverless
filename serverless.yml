@@ -1,0 +1,12 @@
+service: demo
+frameworkVersion: "3"
+provider:
+  name: aws
+  runtime: nodejs18.x
+functions:
+  demofun:
+    handler: hello.handler
+    events:
+      - httpApi:
+          path: /
+          method: GET
