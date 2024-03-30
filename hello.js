@@ -4,6 +4,6 @@ module.exports.handler = async (event) => {
         headers: {
             'Content-Type': 'application/json'
         },
-        body: JSON.stringify({ Message: "Hello Boss" })
+        body: JSON.stringify({ Message: "Hello Asim" })
     }
 }
